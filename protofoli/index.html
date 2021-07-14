@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favbicon  -->
+    <link rel="icon" href="image/favbicon2.png" type="image/icon">
+    <!-- sweet alert  -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- awesome icon cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css  -->
+    <link rel="stylesheet" href="protoflio-style/home.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="bars" id="bars">
+          <div class="bars-line"></div>
+          <div class="bars-line sizeBars"></div>
+          <div class="bars-line"></div>
+        </div>
+        <div class="phone">
+          <i class="fas fa-phone"></i>
+          <span><a href="tel: 9015914116">+91 9015914116</a></span>
+        </div>
+
+        <ul id="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="text-container">
+                <h1 class="nameOnwer">hi, my name is mohmmad azmal ali</h1>
+                <h1 class="skill">i'm a front end developer</h1>
+                <h1 class="based">based in New Delhi, India.</h1>
+                <div class="buttonWork">
+                  <button class="work"><a href="#projects">View my work</a></button>
+                  <button>
+                    <a
+                      style="text-decoration: none; color: rgb(255, 255, 255)"
+                      href="image/MOHAMMAD_AZMAL ALI_Resume.pdf" download="MOHAMMAD_AZMAL ALI_Resume.pdf">Download CV</a
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- image section  -->
+            <div class="col">
+              <div class="image-container">
+                <img src="image/favbicon.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about section  -->
+
+      <section class="about" id="about">
+        <div class="about-container">
+          <div class="about-row">
+            <div class="about-col">
+              <h1 class="aboutHeading">About Me</h1>
+              <div class="about-section">
+                <h1>Hi, I'm <span>mohmmad AZMAL ALI</span></h1>
+                <p>
+                  I'm a Front End developer, I'm lives in Delhi, India. I make a
+                  WebSite, usually with Html, Css, Sass, Bootstrap, Javascript.
+                  Feel free to take a look at my latest Projects. Content me at:
+                </p>
+              </div>
+              <div class="information">
+                <div class="information-details">
+                  <p>Name :</p>
+                  <h1>MOHMMAD AZMAL ALI</h1>
+                </div>
+                <div class="information-details">
+                  <p>Email :</p>
+                  <h1>
+                    <a href="mailto: mdajmalali747@gmail.com"
+                      >mdajmalali747@gmail.com</a
+                    >
+                  </h1>
+                </div>
+                <div class="information-details">
+                  <p>Date of birth :</p>
+                  <h1>10 Feb 1999</h1>
+                </div>
+                <div class="information-details">
+                  <p>City :</p>
+                  <h1>New Delhi, India</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="progress">
+          <h1 class="skillBarText">SKILL</h1>
+          <div class="progress-row">
+            <div class="progress-col">
+              <p>HTML</p>
+              <progress value="85" max="100"></progress>
+              <span>85%</span>
+            </div>
+            <div class="progress-col">
+              <p>CSS</p>
+              <progress value="80" max="100"></progress>
+              <span>80%</span>
+            </div>
+            <div class="progress-col">
+              <p>SASS</p>
+              <progress value="70" max="100"></progress>
+              <span>70%</span>
+            </div>
+            <div class="progress-col">
+              <p>BOOTSTRAP</p>
+              <progress value="80" max="100"></progress>
+              <span>80%</span>
+            </div>
+            <div class="progress-col">
+              <p>JAVASCRIPT</p>
+              <progress value="75" max="100"></progress>
+              <span>75%</span>
+            </div>
+            <div class="progress-col">
+              <p>JQUERY</p>
+              <progress value="65" max="100"></progress>
+              <span>65%</span>
+            </div>
+            <div class="progress-col">
+              <p>HANDLEBARS</p>
+              <progress value="50" max="100"></progress>
+              <span>50%</span>
+            </div>
+            <div class="progress-col">
+              <p>FIREBASE</p>
+              <progress value="65" max="100"></progress>
+              <span>65%</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- projects  -->
+      <section class="project" id="projects">
+        <div class="project-container">
+          <h1>Project</h1>
+          <div class="project-row">
+            <div class="project-col">
+              <div class="project-section">
+                <a
+                  href="https://travel-places-trip.netlify.app/"
+                  target="_Blank"
+                  ><img src="image/tarvle.png" alt="Travel WebSite"
+                /></a>
+                <p>Travel WebSite</p>
+              </div>
+            </div>
+            <div class="project-col">
+              <div class="project-section">
+                <a href="http://yourfood.epizy.com/" target="_Blank"
+                  ><img src="image/projects.png" alt="Food WebSite"
+                /></a>
+                <p>Food WebSite</p>
+              </div>
+            </div>
+            <div class="project-col">
+              <div class="project-section">
+                <a href="http://hospitaldemo.epizy.com/?i=1" target="_Blank"
+                  ><img src="image/madical.png" alt="Medical WebSite"
+                /></a>
+                <p>Medical WebSite</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-row">
+            <div class="project-col">
+              <div class="project-section">
+                <a href="http://aadidas.epizy.com/?i=1" target="_Blank"
+                  ><img src="image/shosh.png" alt="Shoes WebSite"
+                /></a>
+                <p>Shoes WebSite</p>
+              </div>
+            </div>
+            <div class="project-col">
+              <div class="project-section">
+                <a href="http://jaguar.epizy.com/?i=1" target="_Blank"
+                  ><img src="image/travle3.png" alt="Travel WebSite"
+                /></a>
+                <p>Travel WebSite</p>
+              </div>
+            </div>
+            <div class="project-col">
+              <div class="project-section">
+                <a href="http://jaguarcar.epizy.com/?i=1" target="_Blank"
+                  ><img src="image/car.png" alt="Automobile WebSite"
+                /></a>
+                <p>Automobile WebSite</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-row">
+            <div class="project-col">
+              <div class="project-section">
+                <a href="http://countrypassport.netlify.app/" target="_Blank"
+                  ><img src="image/country.png" alt="country Password"
+                /></a>
+                <p>Country Password</p>
+              </div>
+            </div>
+            <div class="project-col">
+              <div class="project-section">
+                <a href="http://www.mytravel.epizy.com/?i=2" target="_Blank"
+                  ><img src="image/tranvel2.png" alt="Travel WebSite"
+                /></a>
+                <p>Travel WebSite</p>
+              </div>
+            </div>
+            <div class="project-col">
+              <div class="project-section">
+                <a
+                  href="https://login-form-firebase-5865d.web.app/"
+                  target="_Blank"
+                  ><img src="image/loginForm.png" alt="LogIn Form"
+                /></a>
+                <p>LogIn Form</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-row">
+            <div class="project-col">
+              <div class="project-section">
+                <a href="https://washingmachine.netlify.app/" target="_Blank"
+                  ><img
+                    src="image/washingmaching.png"
+                    alt="Washingmachine project"
+                /></a>
+                <p>Washingmachine Projects</p>
+              </div>
+            </div>
+            <div class="project-col">
+              <div class="project-section">
+                <a href="http://musice.epizy.com/?i=1" target="_Blank"
+                  ><img src="image/keycode.png" alt="Keyboard WebSite"
+                /></a>
+                <p>Keyboard WebSite</p>
+              </div>
+            </div>
+            <div class="project-col">
+              <div class="project-section">
+                <a href="http://keycodeclick.epizy.com/?i=1" target="_Blank"
+                  ><video
+                    src="image/keycodeVideo.mp4.mp4"
+                    autoplay
+                    muted
+                    loop
+                  ></video
+                ></a>
+                <p>Keyboard WebSite</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- constact  -->
+
+      <section id="contact">
+        <div class="contact">
+          <h1>Contact</h1>
+          <div class="contact-row">
+            <div class="contact-col">
+              <div class="icon-section">
+                <h2>Contact</h2>
+                <span><a href="tel:9015914116">+91 9015914116</a></span>
+              </div>
+              <div class="icon-section">
+                <h2>Email</h2>
+                <span><a href="mailto: mdajmalali747@gmail.com">mdajmalali747@gmail.com</a></span>
+              </div>
+
+              <!-- social icon  -->
+              <div class="icon-link">
+                <a href="https://www.linkedin.com/in/mohammad-azmal-ali-7069081ab/" target="_Blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/" target="_Blank"><i class="fab fa-github"></i></a>
+                <a href="https://codepen.io/your-work/" target="_Blank"><i class="fab fa-codepen"></i></a>
+              </div>
+            </div>
+
+            <div class="contact-col">
+                <form class="form">
+                    <label for="">Name :</label>
+                    <input type="text" class="name" id="name" placeholder="Enter Your Name">
+                    <label for="">Email :</label>
+                    <input type="email" class="email" id="email" placeholder="Enter Your Email">
+                    <label for="">Message :</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+                    <input type="submit" value="Submit" id="submit">
+                </form>
+                <button class="google" id="googleSignup"><i class="fab fa-google"></i>Google</button>
+                <button class="github" id="githubSignup"><i class="fab fa-github"></i>Github</button>
+              </div>
+          </div>
+        </div>
+      </section>
+      <!-- pop  -->
+      <section>
+        <div class="pop" id="pop">
+          <div class="popText">
+              <h1 id="popHeading"></h1>
+              <button id="btn">OK</button>
+          </div>
+      </div>
+      </section>
+
+      <!-- scroll button  -->
+      <section>
+        <div class="scrollButton">
+          <a href="#" id="scrollTop"><i class="fas fa-angle-up"></i></a>
+        </div>
+      </section>
+    </main>
+
+
+    
+  </body>
+  <!-- firebase  -->
+  <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.7.1/auth.js"></script>
+  <!-- javascript  -->
+  <script src="protoflio-style/home.js"></script>
+</html>
